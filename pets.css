@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    scroll-behavior: smooth;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    color:skyblue;
+    margin: 20px 0px 0px 60px;
+}
+nav{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    /* margin: 30px 0 0 100px;  */
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px 0 0 80px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover,a.active{
+    border-bottom: 2px solid skyblue;
+}
+nav ul li #logb{
+    background-color: skyblue;
+    padding: 10px 20px;
+    border: none;
+}
+nav ul li #logb:hover{
+    border: none;
+    background-color: plum;
+}
+.home{
+    height: 100vh;
+}
+.home img:nth-child(1){
+    margin: 0px 0px 0px 200px;
+    border-radius: 10%;
+    z-index: 1;
+    position: relative;
+    top: -200px;
+    border:8px solid white;
+}
+.home img:nth-child(2){
+    margin: 180px 0px 0px -30px;
+    border-radius: 10%;
+    z-index: 2;
+}
+.home img:nth-child(3){
+    margin: 0px 0px 0px -20px;
+    border-radius: 10%;
+    position: relative;
+    top: -140px;
+    border: 10px solid white;
+    z-index: 1;
+}
+.home .contents {
+    width: 25%;
+    margin-left: 70%;
+    top: -490px;
+    position: relative;
+}
+.explore {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.explore .item:nth-child(1){
+    background-color:palegoldenrod ;
+    width: 300px;
+    padding: 60px 10px 0px 16px;
+    border: 10px solid white;
+}
+.explore .item:nth-child(2){
+    background-color:pink;
+    width: 300px;
+    padding:60px 10px 0px 16px;
+    border: 10px solid white;
+}
+.explore .item:nth-child(3){
+    background-color:lavender ;
+    width: 300px;
+    padding: 60px 10px 0px 16px;
+    border: 10px solid white;
+}
+.explore .item:nth-child(4){
+    background-color:paleturquoise;
+    width: 300px;
+    padding: 60px 17px 0px 16px;
+    border: 10px solid white;
+}
+.explore .item img{
+    margin: auto;
+    display: flex;
+    border-radius: 12px;
+    border:6px solid white;
+}
+.explore .item h3{
+    margin: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.explore .item button{
+    background-color: rgb(23, 207, 23);
+    border: none;
+    padding: 7px 20px;
+    border-radius: 4px;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+.explore .item input{
+    background-color: rgb(23, 207, 23);
+    border: none;
+    padding: 7px 25px;
+    border-radius: 4px;
+    margin-left: 64%;
+    display: flex;
+    margin-top: -30px;
+}
+#about{
+    width: auto;
+    height: 100vh;
+    background-color: white;
+    background-attachment: fixed;
+}
+#about h1{
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: skyblue;
+}
+#about p{
+  /*  margin-left:30%;
+    margin-right:30%;
+    margin-top: 200px;*/
+    margin: 30px 30% 0px 30%;
+}
+.form-container {
+    background: white;
+    display: none;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+
+  .form-container label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: plum;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background: pink;
+  }
+
+  .form-container .links {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .form-container .links a {
+    text-decoration: none;
+    color: #6a11cb;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .form-container .links a:hover {
+    color: #2575fc;
+  }
